@@ -11,7 +11,17 @@
 		<title>MENU PREGUNTITAS</title>  
 		
 		<!-- bootstrap -->
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">				
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">		
+		<style type="text/css">
+			#letra{
+				font-family: Comic Sans MS;
+				font-size: 14px;
+			}
+			#letraTitulo{
+				font-family: Comic Sans MS;
+				font-size: 28px;
+			}
+		</style>		
 	</head>
 <body>  
 
@@ -19,52 +29,59 @@
   <div class="container" align='center'>
 	<div class="row">
       <div class="col-xl-4" style="background-color:#ccc">
-        <h1>Comprensión Lectora</h1>  
+      	<br>
+        <h1 id="letraTitulo" >Comprensión Lectora</h1>  
 				<a href="comprension.php" title="Habilidad de Lectura">  
-					<img src="img/language.PNG" width="230" height="130"/>
+					<img src="img/language2.png" width="230"/>
 				</a> 
-        <p>Mejora tu comprensión</p> 
+        <p id="letra">Mejora tu comprensión</p> 
       </div>
       <div class="col-xl-4"  >
-        <h1>Matemáticas</h1> 
+      	<br>
+        <h1 id="letraTitulo">Matemáticas</h1> 
 				<a href="matematicas.php" title="Habilidad Numérica">  
-					<img src="img/math.PNG" width="230" height="130"/> 
+					<img src="img/math.png" width="230"/> 
 				</a>   
-        <p>a Jugar con Numeros</p> 
+				<br>
+        <p id="letra">A jugar con Números</p> 
       </div>
       <div class="col-xl-4"  style="background-color:#ccc">
-        <h1>Historia</h1>   
+      	<br>
+        <h1 id="letraTitulo">Historia</h1>   
 		<br>  
 				<a href="historia.php" title="Habilidad Memoria">  
-					<img src="img/history.PNG" width="230" height="130"/>
+					<img src="img/history2.png" width="230"/>
 				</a> 
-        <p>Aprendiendo del pasado</p> 
+        <p id="letra">Aprendiendo del pasado</p> 
       </div>
     </div>
 	
 	<div class="row">  
       <div class="col-xl-4"  >
-        <h1>¿Sabias Que?</h1>    
+      	<br>
+        <h1 id="letraTitulo">¿Sabías Qué?</h1>    
 				<a href="progreso.php" title="Aprende algo nuevo">  
-					<img src="img/sabias.PNG" width="230" height="130"/>
+					<img src="img/sabias.png" width="230"/>
 				</a>  
-        <p>Revisa tus conocimientos</p> 
+        <p id="letra">Revisa tus conocimientos</p> 
       </div>
       <div class="col-xl-4"  style="background-color:#ccc">
-        <h1>Ver Creadores</h1> 
+      	<br>
+        <h1 id="letraTitulo">Ver Creadores</h1> 
 				<a href="creadores.php" title="Conoce a los creadores">  
-					<img src="img/creadores.PNG" width="230" height="130"/>
+					<img src="img/creadores2.png" width="230" />
 				</a> 
-        <p>Realizado por</p> 
+        <p id="letra">Integrantes</p> 
       </div>  
       <div class="col-xl-4">    
-        <h1>Salir</h1>  
+      	<br>
+        <h1 id="letraTitulo">Salir</h1>  
 		<br>     
-				<a href="login.php" title="Jugamos Luego">  
-					<img src="img/salir.PNG" width="230" height="130"/>
+				<a href="index.php" title="Jugamos Luego">  
+					<img src="img/salir2.PNG" width="230"/>
 				</a> 
 		<br><br>    
-        <p>Hasta Pronto</p> 
+        <p id="letra">¡Hasta Pronto!</p> 
       </div>   
 	</div>  
 	
