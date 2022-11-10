@@ -35,7 +35,7 @@
 			<br><br><br>
       </div>      
       <div class="col-xl-12" >
-        <h1 id="letraTitulo">COMPRENSION LECTORA</h1>  
+        <h1 id="letraTitulo">COMPRENSIÓN LECTORA</h1>  
 			<p id="letra">Instrucciones: Lee el párrafo y selecciona la respuesta correcta</p>  
 			<p id="letra">Anna tiene dos perritos y un gato. Anna está contenta ya que por ser su<br>
 			    cumpleaños número ocho su mamá le regalo una pecera pequeña con dos<br>

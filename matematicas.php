@@ -9,6 +9,7 @@
 		<title>MATEMÁTICAS</title>  
 		<!-- bootstrap --> 
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">  
+		<link rel="stylesheet" type="text/css" href="css/fondo.css">
 		<style type="text/css">
 			#letra{
 				font-family: Comic Sans MS;
